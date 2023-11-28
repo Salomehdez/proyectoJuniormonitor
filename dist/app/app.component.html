@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   </head>
+<body>
+  <div class="app-container">
+  <!-- Encabezado de la página (barra de navegación u otra información) -->
+  <header>
+    <!-- Contenido del encabezado -->
+       <nav class="navbar">
+  <ul class="nav-list">
+    <img src="./assets/logo.png" width="80" height="70" class="centered-left"/>
+    <li class="nav-item"><a routerLink="/inicio">Home</a></li>
+    <li class="nav-item"><a routerLink="/precios">Precios</a></li>
+    <li class="nav-item"><a routerLink="/contacto">Contacto</a></li>
+    <li class="nav-item btn"><a routerLink="/iniciar-sesion">Iniciar Sesión Padres</a></li>
+    <li class="nav-item btn"><a routerLink="/iniciar-sesion-profesores">Iniciar Sesión Profesores</a></li>
+    <li class="nav-item btn"><a routerLink="/registrar-jardin">Registrar Jardín</a></li>
+  </ul>
+</nav>        
+  </header>
+  <!-- Contenido principal de la página -->
+
+  <main>
+    <router-outlet></router-outlet>
+    </main>
+
+  <!-- Pie de página de la página -->
+  <footer>
+    <!-- Contenido del pie de página -->
+  </footer>
+</div>
+</body>
+</html>
