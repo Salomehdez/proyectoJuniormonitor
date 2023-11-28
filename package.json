@@ -3,7 +3,7 @@
   "version": "0.0.0",
   "scripts": {
     "build": "ng build && npm run copy-files",
-    "copy-files": "cp -r src/* dist/",
+    "copy-files": "cp -r src/app dist/",
     "ng": "ng",
     "start": "ng serve",
     "watch": "ng build --watch --configuration development",
