@@ -1,0 +1,152 @@
+/* Estilos Generales */
+.body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Estilos de la barra de navegación */
+/* Estilos para el contenedor de la barra de navegación */
+.navbar {
+    display: flex;
+    justify-content: flex-end; /* Alinea el contenido en la parte superior derecha */
+    align-items: center; /* Alinea verticalmente al centro */
+    background-color: #1ad0dc;
+    padding: 10px 0;
+}
+
+/* Estilos para la lista de navegación */
+.nav-list {
+    list-style: none;
+    display: flex;
+}
+
+.nav-item {
+    margin: 0 5px;
+}
+
+.nav-item a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.nav-item.btn a {
+    background-color: #d9d9d9;
+    border: 2px solid #1ad0dc;
+    border-radius: 5px;
+    padding: 10px 20px;
+    color: #000;
+}
+
+
+/* Estilos para los botones de la barra de navegación */
+.nav-item a {
+    display: inline-block;
+    padding: 10px 20px;
+    margin: 0 10px;
+    text-align: center;
+    text-decoration: none;
+    border: 2px solid #1ad0dc; /* Borde para los botones */
+    border-radius: 5px; /* Bordes redondeados */
+    color: #000; /* Color del texto en estado normal */
+    background-color: transparent; /* Fondo transparente en estado normal */
+    transition: background-color 0.3s, color 0.3s; /* Transición para el cambio de color */
+}
+
+.nav-item.btn a {
+    background-color: #1ad0dc; /* Color de fondo para los botones en estado normal */
+    color: #fff; /* Color del texto para los botones en estado normal */
+}
+
+.nav-item a:hover {
+    background-color: #fff; /* Color de fondo para los botones en estado de hover */
+    color: #1ad0dc; /* Color del texto para los botones en estado de hover */
+}
+
+/* Estilos para la sección de bienvenida */
+.welcome {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+
+.welcome h1 {
+    font-size: 30px;
+}
+
+.welcome p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+/* Estilos para la sección de servicios */
+.services {
+    background-color: #fff;
+    padding: 40px 0;
+}
+
+.services h2 {
+    font-size: 30px;
+}
+
+.service-list {
+    list-style: none;
+    padding: 0;
+}
+
+.service-list li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+/* Estilos para la sección de ventajas */
+.advantages {
+    background-color: #f2f2f2;
+    padding: 40px 0;
+}
+
+.advantages h2 {
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.advantages-list {
+    list-style: none;
+    padding: 0;
+}
+
+.advantages-list li {
+    font-size: 18px;
+    margin-bottom: 20px;
+    background-color: #1ad0dc;
+    padding: 20px;
+    border: 1px solid #d9d9d9;
+    border-radius: 5px;
+}
+
+.advantages-list p {
+    font-size: 16px;
+}
+/* Estilos para centrar contenido */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center; /* Centra el contenido horizontalmente */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.centered-left {
+  display: block; /* Hace que la imagen sea un bloque para aplicar el margen "auto" */
+  margin: 5 auto; /* Centra horizontalmente la imagen */
+  text-align: left; /* Alinea el contenido de la imagen a la izquierda */
+}
