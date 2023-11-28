@@ -24,7 +24,12 @@
             "assets": [
               "src/favicon.ico",
               "src/assets",
-              "src/logo.png"
+              "src/logo.png",
+              {
+               "glob": "_redirects",
+                "input": "src",
+                "output": "/"
+              }
             ],
             "styles": [
               "src/styles.css"
